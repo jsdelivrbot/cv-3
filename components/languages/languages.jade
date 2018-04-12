@@ -1,0 +1,14 @@
+include ../mixins/language-item
+
+.b-content__item.languages
+	.languages__top
+		.languages__top-logo.b-content__logo
+			.round-area--big
+				img(src='./components/languages/languages.png')
+		.languages__top-text.b-content__title-text
+			|languages
+	.languages__bottom.clear-float
+		.language-items
+			+language('./components/languages/flags/usa.png', 'english', 4)
+			+language('./components/languages/flags/german.png', 'german', 3)
+			+language('./components/languages/flags/russian.png', 'russian', 5)

@@ -1,0 +1,10 @@
+mixin skill(icon, name, value)
+	.skills__item
+		.skills__item-logo
+			.round-area--sub-area
+				i(class=icon)
+		.skills__item-wrapper
+			.skills__item-value
+				|#{name}
+			.skills__item-bar
+				progress(max="100" value=value)

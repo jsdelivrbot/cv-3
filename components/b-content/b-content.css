@@ -1,0 +1,28 @@
+.b-content {
+	color: #263238;
+	width: 790px; 
+	float: left;
+}
+
+.b-content__item {
+	padding-top: 58px;
+	padding-left: 75px;
+	padding-right: 72px;
+	
+	&:last-child {
+		padding-bottom: 82px;
+	}
+}
+
+.b-content__logo {
+	float: left;
+}
+
+.b-content__title-text {
+	float: left;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 26px;
+	padding: 15px;
+	padding-left: 22px;
+}

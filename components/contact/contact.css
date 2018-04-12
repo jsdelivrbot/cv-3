@@ -1,0 +1,25 @@
+.contact__item-logo {
+	float: left;
+    padding: 7px;
+
+	.round-area--sub-area {
+		img {
+		    width: 16px;
+    		height: 17px;
+    		padding: 7px;
+		}
+	}
+}
+.contact__item-value {
+	padding: 15px;
+	margin-left: 45px;
+}
+
+.contact__item-value a {
+	color: wheat;
+	text-decoration: none;
+}
+
+.contact__bottom {
+	padding-top: 12px;
+}

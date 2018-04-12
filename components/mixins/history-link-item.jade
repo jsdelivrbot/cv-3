@@ -1,0 +1,13 @@
+mixin historyLink(title, href, firstLogo, firstSubTitle, text)
+	.history-item
+		.history-item__title
+			a(href=href target="_blank")
+				|#{title}
+		.history-item__coordinates
+			.history-item__location
+				.history-item__location-logo
+					img(src=firstLogo)
+				.history-item__location-title
+					|#{firstSubTitle}
+		.history-item__text.clear-float
+			|#{text}

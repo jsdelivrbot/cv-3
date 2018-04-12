@@ -1,0 +1,27 @@
+include ../mixins/history-item
+include ../mixins/history-link-item
+
+.b-content__item.experience
+	.experience__top
+		.experience__top-logo.b-content__logo
+			.round-area--big
+				img(src='./components/experience/experience.png')
+		.experience__top-text.b-content__title-text
+			|Work experience
+	.experience__bottom.clear-float
+		.history-items
+			+history('Frontend Developer', './components/experience/icons/firstLogo.png', 'Firecracker.me', './components/experience/icons/secondLogo.png', 'from December 2016', 'Creation of best quality solutions, support and development of several platform projects. Execution of the role of the project leader, code review, scheduling of releases, communication with the main team.')
+			+history('Frontend Developer', './components/experience/icons/firstLogo.png', 'ZenduIT', './components/experience/icons/secondLogo.png', 'Jule 2016 - December 2016', 'Improving the quality of existing code, writing tests, holding review. Configuring automatic environments for projects.')
+			+history('Frontend Developer', './components/experience/icons/firstLogo.png', '.INOSTUDIO', './components/experience/icons/secondLogo.png', 'June 2015 – December 2016', 'Application Development on .NET platform using a javascript framework AngularJS. Mentoring team members in development and technical progression. Writing automatic tests and deployment.')
+			+history('Frontend Developer', './components/experience/icons/firstLogo.png', 'HADROUT', './components/experience/icons/secondLogo.png', 'January 2013 - June 2015', 'Frontend development and assist in optimization of existing solutions.')
+	.experience__top.apps
+		.experience__top-logo.b-content__logo
+			.round-area--big
+				img(src='./components/experience/apps.png' class='apps')
+		.experience__top-text.b-content__title-text
+			|Brief list of shipped apps
+	.experience__bottom.clear-float
+		.history-items
+			+historyLink('Firecracker', 'http://www.firecracker.me/', './components/experience/icons/firstLogo.png', 'Firecracker.me', 'Platform of technical support for taking exams in medical structures or schools on several apps.')
+			+historyLink('Curogram', 'https://curogram.com/', './components/experience/icons/firstLogo.png', 'Curogram', 'The development of messenger for communicate between doctors and patients on platform of NodeJS using the HapiJs framework and AngularJS.')
+			+historyLink('Streetwyze', 'http://www.streetwyze.com/', './components/experience/icons/firstLogo.png', 'EmberMVP', 'A way for you to navigate your neighborhood and discover hidden gems with real time help from the community.')

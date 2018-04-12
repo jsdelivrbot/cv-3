@@ -1,0 +1,13 @@
+include ../mixins/history-item
+
+.b-content__item.education
+	.education__top
+		.education__top-logo.b-content__logo
+			.round-area--big
+				img(src='./components/education/education.png')
+		.education__top-text.b-content__title-text
+			|Education
+	.education__bottom.clear-float
+		.history-items
+			+history('Master (Applied Informatics)', './components/education/icons/firstLogo.png', 'ICTIS SFU', './components/education/icons/secondLogo.png', '01/09/2015 - 31/08/17', 'The focus of training is aimed at studying the ergonomic design and technology to create a custom interface. UI/UX and disciplines such as psychology, philosophy, neuroscience, fundamentals of design and aesthetics.')
+			+history('Bachelor (Software Engineering)', './components/education/icons/firstLogo.png', 'ICTIS SFU', './components/education/icons/secondLogo.png', '01/09/2011 - 31/08/2015', 'The basis of education programming in all forms. object-oriented programming, machine-oriented programming, discrete mathematics, theory of automata, development of requirements for software products, and others.')

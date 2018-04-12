@@ -1,0 +1,23 @@
+include ../mixins/skill-item
+
+.sidebar__bottom-item.skills
+	.skills__top
+		.skills__top-logo.sidebar__logo
+			.round-area
+				img(src='./components/skills/skills.png')
+		.skills__top-text.sidebar__title-text
+			|Areas of expertise
+	.skills__bottom.clear-float
+		.skills__items
+			+skill("devicon-javascript-plain", "JavaScript", "100")
+			+skill("devicon-angularjs-plain", "Angular", "98")
+			+skill("devicon-react-original", "React", "98")
+			+skill("devicon-go-plain", "Ember", "98")
+			+skill("devicon-html5-plain", "HTML5", "98")
+			+skill("devicon-css3-plain", "CSS3", "98")
+			+skill("devicon-nodejs-plain", "Node.js", "80")
+			+skill("devicon-mongodb-plain", "MongoDb", "80")
+			+skill("devicon-sequelize-plain", "Sequelize", "80")
+			+skill("devicon-git-plain", "Git", "98")
+			+skill("devicon-codeigniter-plain", "Firebase", "80")
+			+skill("devicon-heroku-plain", "Heroku", "80")

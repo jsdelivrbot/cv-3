@@ -1,0 +1,28 @@
+.language-item {
+	float: left;
+	padding-right: 51px;
+
+	&:last-child {
+		padding-right: 0;
+	}
+}
+.language-item__flag {
+	img {
+		width: 141px;
+		border-radius: 10px;
+		border: 1px solid #263238;
+	}
+}
+.language-item__name {
+	font-size: 17px;
+	text-transform: uppercase;
+	font-weight: bolder;
+	padding-top: 20px;
+	text-align: center;
+}
+.language-item__competence {
+	ul.stars {
+		width: 130px;
+		margin: 0px auto auto -32px;
+	}
+}

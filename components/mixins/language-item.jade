@@ -1,0 +1,11 @@
+mixin language(src, name, count)
+	.language-item
+		.language-item__flag
+			img(src=src)
+		.language-item__name
+			|#{name}
+		.language-item__competence
+			ul.stars
+				- for(var i = 0; i < count; i++) {
+					li.star
+				- }

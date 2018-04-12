@@ -1,0 +1,31 @@
+.sidebar {
+	width: 450px;
+	float: left;
+	color: white;
+	background: #37474f;
+}
+.sidebar__top {
+	background: #263238;
+}
+.sidebar__bottom-item {
+	padding-top: 60px;
+	padding-left: 54px;
+	padding-right: 56px;
+
+	&:last-child {
+		padding-bottom: 50px;
+	}
+}
+
+.sidebar__logo {
+	float: left;
+}
+
+.sidebar__title-text {
+	float: left;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: white;
+	font-size: 20px;
+	padding: 12px 15px;
+}

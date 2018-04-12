@@ -1,0 +1,45 @@
+.history-item {
+	padding-left: 85px;
+    padding-top: 34px;
+	text-align: justify;
+}
+
+.history-item__title {
+	padding-bottom: 17px;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 500;
+
+		a {
+			color: #2788b5;
+    	text-decoration: none;
+		}
+}
+
+.history-item__location-logo,
+.history-item__location-title,
+.history-item__terms-logo,
+.history-item__terms-title {
+    float: left;
+}
+
+.history-item__coordinates {
+    img {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.history-item__location-title,
+.history-item__terms-title {
+    padding-left: 11px;
+    padding-right: 15px;
+    padding-top: 2px;
+    font-size: 14px;
+    color: #90a4ae;
+}
+
+.history-item__text {
+    padding-top: 24px;
+    font-size: 18px;
+}

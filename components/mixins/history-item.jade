@@ -1,0 +1,17 @@
+mixin history(title, firstLogo, firstSubTitle, secondLogo, secondSubTitle, text)
+	.history-item
+		.history-item__title
+			|#{title}
+		.history-item__coordinates
+			.history-item__location
+				.history-item__location-logo
+					img(src=firstLogo)
+				.history-item__location-title
+					|#{firstSubTitle}
+			.history-item__terms
+				.history-item__terms-logo
+					img(src=secondLogo)
+				.history-item__terms-title
+					|#{secondSubTitle}
+		.history-item__text.clear-float
+			|#{text}			

@@ -1,0 +1,35 @@
+.profile {
+	padding-top: 72.5px;
+	padding-bottom: 72.5px;
+}
+
+.profile__image {
+	margin: auto;
+	width: 225px;
+}
+
+.profile__name {
+	margin: auto;
+	margin-top: 50px;
+	width: 360px;
+	text-align: center;
+	color: white;
+	font-size: 28px;
+	text-transform: uppercase;
+}
+
+.round-image {
+	width: 225px;
+	margin: auto;
+    border-radius: 100%;
+    box-shadow: 0 0 0 3px #37474f, 0 0 13px #333;
+}
+
+.profile__position {
+	margin: auto;
+	margin-top: 19px;
+	text-transform: uppercase;
+	width: 200px;
+	color: white;
+	font-size: 17px;
+}

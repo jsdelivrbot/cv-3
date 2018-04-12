@@ -1,0 +1,8 @@
+mixin contactLink(srcLogo, href, value)
+  .contact__item
+    .contact__item-logo
+      .round-area--sub-area
+        img(src=srcLogo)
+    .contact__item-value
+      a(href=href target="_blank")
+        |#{value}
