@@ -1,14 +1,15 @@
 .b-content {
 	color: #263238;
-	width: 790px; 
+	width: 790px;
 	float: left;
+	padding-bottom: 54px;
 }
 
 .b-content__item {
 	padding-top: 58px;
 	padding-left: 75px;
 	padding-right: 72px;
-	
+
 	&:last-child {
 		padding-bottom: 82px;
 	}

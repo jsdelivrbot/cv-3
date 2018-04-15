@@ -10,6 +10,7 @@ body{
 }
 
 .main-container {
+	display: flex;
 	float: left;
 	background: url(./main/background.png) repeat-y;
 }
