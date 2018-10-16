@@ -1,5 +1,6 @@
 include ../mixins/history-item
 include ../mixins/history-link-item
+include ../mixins/hashtag-item
 
 .b-content__item.experience
 	.experience__top
@@ -10,7 +11,8 @@ include ../mixins/history-link-item
 			|Work experience
 	.experience__bottom.clear-float
 		.history-items
-			+history('Frontend Developer', './components/experience/icons/firstLogo.png', 'Firecracker.me', './components/experience/icons/secondLogo.png', 'from May 2017', 'Creation of best quality solutions using browser application framework - EmberJS, support and development of several platform projects. Execution of the role of the project leader, code review, scheduling of releases, communication with the main team.')
+			+history('Senior Frontend Developer', './components/experience/icons/firstLogo.png', 'Coins.ph', './components/experience/icons/secondLogo.png', 'from May 2018', 'Providing solutions for interaction with blockchain. Creation of app\'s architecture for online banking. Integration of new cryptocurrencies into current project. Support several projects on main platform. Configuring automatic environments for projects and writing tests. Support and upgrading legacy codebase. Providing solutions for multi-languages platform.')
+			+history('Frontend Developer', './components/experience/icons/firstLogo.png', 'Firecracker.me', './components/experience/icons/secondLogo.png', 'May 2017 - May 2018', 'Creation of best quality solutions using browser application framework - EmberJS, support and development of several platform projects. Execution of the role of the project leader, code review, scheduling of releases, communication with the main team.')
 			+history('Frontend Developer', './components/experience/icons/firstLogo.png', 'ZenduIT', './components/experience/icons/secondLogo.png', 'December 2016 - May 2017', 'Improving the quality of existing code, writing tests, holding review. Configuring automatic environments for projects.')
 			+history('Freelance Frontend Developer', './components/experience/icons/firstLogo.png', 'EmberMVP', './components/experience/icons/secondLogo.png', 'December 2016 - May 2017', 'Freelance development and outsourcing of apps using browser application framework - EmberJS.')
 			+history('Fullstack js Developer', './components/experience/icons/firstLogo.png', 'Curogram', './components/experience/icons/secondLogo.png', 'October 2016 – November 2016', 'The development of messenger for communicate between doctors and patients on platform of NodeJS using the HapiJs framework and AngularJS.')
@@ -24,7 +26,38 @@ include ../mixins/history-link-item
 			|Brief list of shipped apps
 	.experience__bottom.clear-float
 		.history-items
+			+historyLink('Coins.ph', 'https://coins.ph/', './components/experience/icons/firstLogo.png', 'Coins.ph', 'Mobile Wallet & Bitcoin Exchange in the Philippines. Coins.ph is a mobile wallet where Filipinos make online payments, load beepTM cards, and buy bitcoin. Available on web, Android, and iOS.')
+			.hashtag
+				+hashtag('Blockchain')
+				+hashtag('EmberJs')
+				+hashtag('ReactJS')
+				+hashtag('HTML')
+				+hashtag('CSS')
+				+hashtag('Codeship')
+				+hashtag('SVG')
 			+historyLink('Firecracker', 'http://www.firecracker.me/', './components/experience/icons/firstLogo.png', 'Firecracker.me', 'Platform of technical support for taking exams in medical structures or schools on several apps.')
+			.hashtag
+				+hashtag('EmberJs')
+				+hashtag('HTML')
+				+hashtag('CSS')
+				+hashtag('Codeship')
+				+hashtag('Firebase')
 			+historyLink('Curogram', 'https://curogram.com/', './components/experience/icons/firstLogo.png', 'Curogram', 'The development of messenger for communicate between doctors and patients on platform of NodeJS using the HapiJs framework and AngularJS.')
+			.hashtag
+				+hashtag('AngularJs')
+				+hashtag('HTML')
+				+hashtag('CSS')
+				+hashtag('NodeJs')
+				+hashtag('MongoDB')
+				+hashtag('AWS')
+				+hashtag('SocketIO')
 			+historyLink('Streetwyze', 'http://www.streetwyze.com/', './components/experience/icons/firstLogo.png', 'EmberMVP', 'A way for you to navigate your neighborhood and discover hidden gems with real time help from the community.')
+			.hashtag
+				+hashtag('EmberJs')
+				+hashtag('HTML')
+				+hashtag('CSS')
 			+historyLink('Grapevine', 'https://yourgrapevine.com/', './components/experience/icons/firstLogo.png', 'EmberMVP', 'Recommendations on the best places to go from the people you know.')
+			.hashtag
+				+hashtag('EmberJs')
+				+hashtag('HTML')
+				+hashtag('CSS')
